@@ -1,0 +1,38 @@
+{
+  "name": "qcjs",
+  "version": "0.1.0",
+  "description": "Quick CJS transform",
+  "main": "src/cjs.js",
+  "type": "module",
+  "scripts": {
+    "test": "ava -v"
+  },
+  "ava": {
+    "files": [
+      "**/*.spec.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmaevsky/qcjs.git"
+  },
+  "keywords": [
+    "CJS",
+    "transform",
+    "isomorphic"
+  ],
+  "author": "Dmitry Maevsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dmaevsky/qcjs/issues"
+  },
+  "homepage": "https://github.com/dmaevsky/qcjs#readme",
+  "dependencies": {
+    "rd-parse": "^3.4.0"
+  },
+  "devDependencies": {
+    "acorn": "^8.4.1",
+    "ava": "^4.3.3",
+    "conclure": "^2.0.0"
+  }
+}
