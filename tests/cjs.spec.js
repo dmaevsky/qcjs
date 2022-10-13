@@ -10,7 +10,7 @@ const ignoreEnd = n => ({ ...n, end: 0 });
 
 function testSingle(t, code) {
   const ast = parse(code).map(ignoreEnd);
-  const acornAst = transform(acorn.parse(code, { sourceType: 'module' })).map(ignoreEnd);
+  const acornAst = transform(acorn.parse(code, { sourceType: 'module', ecmaVersion: 2020 })).map(ignoreEnd);
 
   t.deepEqual(acornAst, ast);
 }

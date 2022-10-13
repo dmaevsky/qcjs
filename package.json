@@ -33,6 +33,6 @@
   "devDependencies": {
     "acorn": "^8.4.1",
     "ava": "^4.3.3",
-    "conclure": "^2.0.0"
+    "conclure": "^2.1.0"
   }
 }
